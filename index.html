@@ -48,6 +48,96 @@
     }
 
     async function shareMsg() {
+      await liff.shareTargetPicker([
+        {
+          "type": "flex",
+          "altText": "This is a Flex Message",
+          "contents": {
+            "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Chulalongkorn Business School",
+        "color": "#FFFFFF",
+        "weight": "bold",
+        "align": "center"
+      }
+    ]
+  },
+  "hero": {
+    "type": "image",
+    "url": "https://lh5.googleusercontent.com/p9xS1S2UtiyKbBD5b86lMANMuA2EOw1zKT4QwoS1_yzf7eKuFDpd-T2Ew-VhKOgNSBCt6AdDI-VGYR_0o6ycLpY=w1280",
+    "size": "xl",
+    "align": "center",
+    "position": "relative",
+    "offsetTop": "lg",
+    "offsetBottom": "lg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "SAKDA SALAOHOM",
+        "align": "center",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "accounting student",
+        "align": "center",
+        "style": "normal",
+        "size": "xs"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "for more information",
+              "uri": "https://sites.google.com/student.chula.ac.th/sakdasalaohom"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "email me",
+              "text": "conan.james@hotmail.com"
+            },
+            "style": "secondary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "call me now",
+              "uri": "tel:+66898975525"
+            },
+            "style": "secondary"
+          }
+        ],
+        "spacing": "md"
+      }
+    ],
+    "spacing": "xs"
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#00B900"
+    }
+  }
+}
+        }
+      ])
     }
 
     function logOut() {

@@ -59,99 +59,89 @@
           "type": "flex",
           "altText": "Flex Message",
           "contents": {
-            "type": "bubble",
-            "body": {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "md",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "BROWN'S ADVENTURE",
-                  "size": "xl",
-                  "gravity": "center",
-                  "weight": "bold",
-                  "wrap": true
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "spacing": "sm",
-                  "margin": "lg",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "baseline",
-                      "spacing": "sm",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "Date",
-                          "flex": 1,
-                          "size": "sm",
-                          "color": "#AAAAAA"
-                        },
-                        {
-                          "type": "text",
-                          "text": "Monday 25, 9:00PM",
-                          "flex": 4,
-                          "size": "sm",
-                          "color": "#666666",
-                          "wrap": true
-                        }
-                      ]
-                    },
-                    {
-                      "type": "box",
-                      "layout": "baseline",
-                      "spacing": "sm",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "Place",
-                          "flex": 1,
-                          "size": "sm",
-                          "color": "#AAAAAA"
-                        },
-                        {
-                          "type": "text",
-                          "text": "LINE Thailand",
-                          "flex": 4,
-                          "size": "sm",
-                          "color": "#666666",
-                          "wrap": true
-                        }
-                      ]
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "margin": "xxl",
-                      "contents": [
-                        {
-                          "type": "spacer"
-                        },
-                        {
-                          "type": "image",
-                          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/linecorp_code_withborder.png",
-                          "size": "xl",
-                          "aspectMode": "cover"
-                        },
-                        {
-                          "type": "text",
-                          "text": "You can enter the theater by using this code instead of a ticket",
-                          "margin": "xxl",
-                          "size": "xs",
-                          "color": "#AAAAAA",
-                          "wrap": true
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Chulalongkorn Business School",
+        "color": "#FFFFFF",
+        "weight": "bold",
+        "align": "center"
+      }
+    ]
+  },
+  "hero": {
+    "type": "image",
+    "url": "https://lh5.googleusercontent.com/p9xS1S2UtiyKbBD5b86lMANMuA2EOw1zKT4QwoS1_yzf7eKuFDpd-T2Ew-VhKOgNSBCt6AdDI-VGYR_0o6ycLpY=w1280",
+    "size": "xl",
+    "align": "center",
+    "position": "relative",
+    "offsetTop": "lg",
+    "offsetBottom": "lg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "SAKDA SALAOHOM",
+        "align": "center",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "accounting student",
+        "align": "center",
+        "style": "normal",
+        "size": "xs"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "for more information",
+              "uri": "https://sites.google.com/student.chula.ac.th/sakdasalaohom"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "email me",
+              "text": "conan.james@hotmail.com"
+            },
+            "style": "secondary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "call me now",
+              "uri": "tel:+66898975525"
+            },
+            "style": "secondary"
           }
+        ],
+        "spacing": "md"
+      }
+    ],
+    "spacing": "xs"
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#00B900"
+    }
+  }
+}
       }
       ])
     }

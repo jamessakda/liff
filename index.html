@@ -59,17 +59,19 @@
           "type": "flex",
           "altText": "Flex Message",
           "contents": {
-  "type": "bubble",
-  "hero": {
-    "type": "image",
-    "url": "https://lh3.googleusercontent.com/w4YPvRwhN4hYuJD9CWFvRNRuz7TG5_coKV7RWSbv7uKaTZrsJIJixoI_tDFVf5uw69iO8GQpUq8oTDKwwPrfDdDGyYS3Ti-_7BHrs47YIyYh0yHUtDiDyekGdqoazezTFQ=w1280",
-    "size": "full",
-    "aspectRatio": "20:13",
-    "aspectMode": "cover",
-    "action": {
-      "type": "uri",
-      "uri": "http://linecorp.com/"
-    }
+            "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "James needs your money",
+        "color": "#FFFFFF",
+        "align": "center",
+        "weight": "bold"
+      }
+    ]
   },
   "body": {
     "type": "box",
@@ -78,84 +80,49 @@
     "contents": [
       {
         "type": "text",
-        "text": "YOU ARE ALL INVITED\nSHIDEBATE (all gen)",
+        "text": "เปลี่ยนจากคำขอบคุณ\nเป็นเงินของคุณจะดีกว่า",
         "wrap": true,
         "weight": "bold",
         "gravity": "center",
-        "size": "xl",
-        "align": "start"
+        "size": "xl"
       },
       {
         "type": "box",
-        "layout": "vertical",
-        "margin": "lg",
-        "spacing": "sm",
+        "layout": "baseline",
+        "margin": "md",
         "contents": [
           {
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Date",
-                "color": "#aaaaaa",
-                "size": "sm",
-                "flex": 1
-              },
-              {
-                "type": "text",
-                "text": "Monday 25, 9:00PM",
-                "wrap": true,
-                "size": "sm",
-                "color": "#666666",
-                "flex": 4
-              }
-            ]
+            "type": "icon",
+            "size": "sm",
+            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
           },
           {
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Place",
-                "color": "#aaaaaa",
-                "size": "sm",
-                "flex": 1
-              },
-              {
-                "type": "text",
-                "text": "7 Floor, No.3",
-                "wrap": true,
-                "color": "#666666",
-                "size": "sm",
-                "flex": 4
-              }
-            ]
+            "type": "icon",
+            "size": "sm",
+            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
           },
           {
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Seats",
-                "color": "#aaaaaa",
-                "size": "sm",
-                "flex": 1
-              },
-              {
-                "type": "text",
-                "text": "P78",
-                "wrap": true,
-                "color": "#666666",
-                "size": "sm",
-                "flex": 4
-              }
-            ]
+            "type": "icon",
+            "size": "sm",
+            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
+          },
+          {
+            "type": "text",
+            "text": "5/5 (all my love for you)",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
           }
         ]
       },
@@ -165,22 +132,53 @@
         "margin": "xxl",
         "contents": [
           {
-            "type": "spacer"
-          },
-          {
             "type": "image",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/linecorp_code_withborder.png",
+            "url": "https://lh3.googleusercontent.com/W4-Mmri_2piThqa5PS64NVMuMhv4uQBM4-nQen7YELsYiDD7Q8B03iXJsiv8--521bZdcNDZKeGJiz5nKfSlMFezYaTpcGeCHgLB3mzgsjR2OD06IqZQM0mSIlIny6jKSQ=w1280",
             "aspectMode": "cover",
-            "size": "xl"
+            "size": "xl",
+            "offsetStart": "none",
+            "offsetBottom": "sm"
           },
           {
             "type": "text",
-            "text": "no more debit we debate",
+            "text": "สแกน QR เพื่อโอนเข้าบัญชี",
+            "color": "#4ac6ae",
+            "style": "normal",
+            "align": "center",
+            "offsetBottom": "lg",
+            "offsetTop": "lg",
+            "size": "md"
+          },
+          {
+            "type": "text",
+            "text": "ชื่อ: นายศักดา เสลาหอม",
+            "align": "center",
+            "color": "#4d4d4d",
+            "style": "normal",
+            "offsetTop": "lg",
+            "offsetBottom": "lg",
+            "size": "md"
+          },
+          {
+            "type": "text",
+            "text": "บัญชี: xxx-x-x0856-x",
+            "color": "#4d4d4d",
+            "style": "normal",
+            "align": "center",
+            "offsetTop": "lg",
+            "offsetBottom": "lg",
+            "size": "md",
+            "wrap": true,
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "Accepts all bank | รับเงินได้จากทุกธนาคาร",
             "color": "#aaaaaa",
             "wrap": true,
             "margin": "xxl",
             "size": "xs",
-            "align": "center"
+            "offsetTop": "none"
           }
         ]
       }
@@ -194,13 +192,18 @@
         "type": "button",
         "action": {
           "type": "uri",
-          "label": "join us",
+          "label": "โอนซะ",
           "uri": "https://www.facebook.com/jamesconan0924/"
         },
         "style": "primary",
-        "color": "#000d29"
+        "color": "#1f5078"
       }
     ]
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#1f5078"
+    }
   }
 }
 }

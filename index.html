@@ -57,154 +57,279 @@
       await liff.shareTargetPicker([
       {
           "type": "flex",
-          "altText": "Flex Message",
+          "altText": "ช่วงโควิดแบบนี้ ลดให้พิเศษ รับน้องไปดูแลได้นะครับ",
           "contents": {
-            "type": "bubble",
-  "header": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "James needs your money",
-        "color": "#FFFFFF",
-        "align": "center",
-        "weight": "bold"
-      }
-    ]
-  },
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "spacing": "md",
-    "contents": [
-      {
-        "type": "text",
-        "text": "เปลี่ยนจากคำขอบคุณ\nเป็นเงินของคุณจะดีกว่า",
-        "wrap": true,
-        "weight": "bold",
-        "gravity": "center",
-        "size": "xl"
-      },
-      {
-        "type": "box",
-        "layout": "baseline",
-        "margin": "md",
-        "contents": [
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://th.seaicons.com/wp-content/uploads/2015/06/heart-icon.png"
-          },
-          {
-            "type": "text",
-            "text": "5/5 (all my love for you)",
-            "size": "sm",
-            "color": "#999999",
-            "margin": "md",
-            "flex": 0
-          }
-        ]
-      },
-      {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "body": {
         "type": "box",
         "layout": "vertical",
-        "margin": "xxl",
         "contents": [
           {
             "type": "image",
-            "url": "https://lh3.googleusercontent.com/W4-Mmri_2piThqa5PS64NVMuMhv4uQBM4-nQen7YELsYiDD7Q8B03iXJsiv8--521bZdcNDZKeGJiz5nKfSlMFezYaTpcGeCHgLB3mzgsjR2OD06IqZQM0mSIlIny6jKSQ=w1280",
+            "url": "https://lh4.googleusercontent.com/HZRSkB7A-U4e-oUMQrfQwKefbyNMFSZjjAJ4tAjwJma2lepPdaAF1bAbCdv5Rulyxg4zhCzQ3_SjAZutQU4dLollzYcyjXHez_pQbPWvCWIwTz4vY4I8wYR2HsguU25r3Q=w1280",
+            "size": "full",
             "aspectMode": "cover",
-            "size": "xl",
-            "offsetStart": "none",
-            "offsetBottom": "sm"
+            "aspectRatio": "2:3",
+            "gravity": "top"
           },
           {
-            "type": "text",
-            "text": "สแกน QR เพื่อโอนเข้าบัญชี",
-            "color": "#4ac6ae",
-            "style": "normal",
-            "align": "center",
-            "offsetBottom": "lg",
-            "offsetTop": "lg",
-            "size": "md"
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Engeng App",
+                    "size": "xl",
+                    "color": "#ffffff",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "฿500",
+                    "color": "#ebebeb",
+                    "size": "sm",
+                    "flex": 0
+                  },
+                  {
+                    "type": "text",
+                    "text": "฿5,000",
+                    "color": "#ffffffcc",
+                    "decoration": "line-through",
+                    "gravity": "bottom",
+                    "flex": 0,
+                    "size": "sm"
+                  }
+                ],
+                "spacing": "lg"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "filler"
+                      },
+                      {
+                        "type": "icon",
+                        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip14.png"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Add to cart",
+                        "color": "#ffffff",
+                        "flex": 0,
+                        "offsetTop": "-2px",
+                        "action": {
+                          "type": "uri",
+                          "uri": "https://www.facebook.com/engeng.mimi.7"
+                        }
+                      },
+                      {
+                        "type": "filler"
+                      }
+                    ],
+                    "spacing": "sm"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "borderWidth": "1px",
+                "cornerRadius": "4px",
+                "spacing": "sm",
+                "borderColor": "#ffffff",
+                "margin": "xxl",
+                "height": "40px"
+              }
+            ],
+            "position": "absolute",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#03303Acc",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
           },
           {
-            "type": "text",
-            "text": "ชื่อ: นายศักดา เสลาหอม",
-            "align": "center",
-            "color": "#4d4d4d",
-            "style": "normal",
-            "offsetTop": "lg",
-            "offsetBottom": "lg",
-            "size": "md"
-          },
-          {
-            "type": "text",
-            "text": "บัญชี: xxx-x-x0856-x",
-            "color": "#4d4d4d",
-            "style": "normal",
-            "align": "center",
-            "offsetTop": "lg",
-            "offsetBottom": "lg",
-            "size": "md",
-            "wrap": true,
-            "margin": "none"
-          },
-          {
-            "type": "text",
-            "text": "Accepts all bank | รับเงินได้จากทุกธนาคาร",
-            "color": "#aaaaaa",
-            "wrap": true,
-            "margin": "xxl",
-            "size": "xs",
-            "offsetTop": "none"
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "SALE",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "xs",
+                "offsetTop": "3px"
+              }
+            ],
+            "position": "absolute",
+            "cornerRadius": "20px",
+            "offsetTop": "18px",
+            "backgroundColor": "#ff334b",
+            "offsetStart": "18px",
+            "height": "25px",
+            "width": "53px"
           }
-        ]
+        ],
+        "paddingAll": "0px"
       }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "button",
-        "action": {
-          "type": "uri",
-          "label": "โอนซะ",
-          "uri": "https://www.facebook.com/jamesconan0924/"
-        },
-        "style": "primary",
-        "color": "#1f5078"
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://lh4.googleusercontent.com/mwvjki_IjBgA3DaIUWvp95vDuWwu8MGP9xgwPjtg7-qNaa9XpbfwXULL0f6kX8AxpBDeSvoY8msWbR_-cw7pWU1rUxcmbcLT5R5a3jozs-hT2eYJC2JoSZKQPJGAeU8Cvg=w1280",
+            "size": "full",
+            "aspectMode": "cover",
+            "aspectRatio": "2:3",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Dear Supakkavee",
+                    "size": "xl",
+                    "color": "#ffffff",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "฿300",
+                    "color": "#ebebeb",
+                    "size": "sm",
+                    "flex": 0
+                  },
+                  {
+                    "type": "text",
+                    "text": "฿3,000",
+                    "color": "#ffffffcc",
+                    "decoration": "line-through",
+                    "gravity": "bottom",
+                    "flex": 0,
+                    "size": "sm"
+                  }
+                ],
+                "spacing": "lg"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "filler"
+                      },
+                      {
+                        "type": "icon",
+                        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip14.png"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Add to cart",
+                        "color": "#ffffff",
+                        "flex": 0,
+                        "offsetTop": "-2px",
+                        "action": {
+                          "type": "uri",
+                          "uri": "https://www.facebook.com/dearr.supukkavee"
+                        }
+                      },
+                      {
+                        "type": "filler"
+                      }
+                    ],
+                    "spacing": "sm"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "borderWidth": "1px",
+                "cornerRadius": "4px",
+                "spacing": "sm",
+                "borderColor": "#ffffff",
+                "margin": "xxl",
+                "height": "40px"
+              }
+            ],
+            "position": "absolute",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#9C8E7Ecc",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "SALE",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "xs",
+                "offsetTop": "3px"
+              }
+            ],
+            "position": "absolute",
+            "cornerRadius": "20px",
+            "offsetTop": "18px",
+            "backgroundColor": "#ff334b",
+            "offsetStart": "18px",
+            "height": "25px",
+            "width": "53px"
+          }
+        ],
+        "paddingAll": "0px"
       }
-    ]
-  },
-  "styles": {
-    "header": {
-      "backgroundColor": "#1f5078"
     }
-  }
+  ]
 }
 }
       ])

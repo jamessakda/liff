@@ -56,231 +56,125 @@
     async function shareMsg() {
       await liff.shareTargetPicker([
       {
-          "type": "flex",
-          "altText": "รักไหม",
-          "contents": {
-  "type": "carousel",
-  "contents": [
-    {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://raw.githubusercontent.com/jamessakda/LANDin.github.io/main/images/IMG_1792.JPG?w=auto",
-            "size": "full",
-            "aspectMode": "cover",
-            "aspectRatio": "2:3",
-            "gravity": "top"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "มูลค่าความรัก",
-                    "size": "xl",
-                    "color": "#ffffff",
-                    "weight": "bold"
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "฿0",
-                    "color": "#ebebeb",
-                    "size": "sm",
-                    "flex": 0
-                  },
-                  {
-                    "type": "text",
-                    "text": "฿100M",
-                    "color": "#ffffffcc",
-                    "decoration": "line-through",
-                    "gravity": "bottom",
-                    "flex": 0,
-                    "size": "sm"
-                  }
-                ],
-                "spacing": "lg"
-              }
-            ],
-            "position": "absolute",
-            "offsetBottom": "0px",
-            "offsetStart": "0px",
-            "offsetEnd": "0px",
-            "backgroundColor": "#9C5E9Ecc",
-            "paddingAll": "20px",
-            "paddingTop": "18px"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "text": "SALE",
-                "color": "#ffffff",
-                "align": "center",
-                "size": "xs",
-                "offsetTop": "3px"
-              }
-            ],
-            "position": "absolute",
-            "cornerRadius": "20px",
-            "offsetTop": "18px",
-            "backgroundColor": "#ff334b",
-            "offsetStart": "18px",
-            "height": "25px",
-            "width": "53px"
-          }
-        ],
-        "paddingAll": "0px"
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "ฟังเสียงหัวใจกดปุ่มนี้",
-              "uri": "https://www.youtube.com/watch?v=WcX442Mb11s"
-            },
-            "style": "primary",
-            "color": "#cd3072"
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "คิดถึงกดปุ่มนี้",
-              "uri": "tel:+66802947997"
-            },
-            "style": "secondary"
-          }
-        ],
-        "spacing": "md"
-      }
-    },
-    {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://raw.githubusercontent.com/jamessakda/LANDin.github.io/main/images/IMG_1794.JPG?w=auto",
-            "size": "full",
-            "aspectMode": "cover",
-            "aspectRatio": "2:3",
-            "gravity": "top"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "ค่าเสื่อมราคา",
-                    "size": "xl",
-                    "color": "#ffffff",
-                    "weight": "bold"
-                  }
-                ]
-              },
-              {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "฿0",
-                    "color": "#ebebeb",
-                    "size": "sm",
-                    "flex": 0
-                  }
-                ],
-                "spacing": "lg"
-              }
-            ],
-            "position": "absolute",
-            "offsetBottom": "0px",
-            "offsetStart": "0px",
-            "offsetEnd": "0px",
-            "backgroundColor": "#03303Acc",
-            "paddingAll": "20px",
-            "paddingTop": "18px"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "text": "SALE",
-                "color": "#ffffff",
-                "align": "center",
-                "size": "xs",
-                "offsetTop": "3px"
-              }
-            ],
-            "position": "absolute",
-            "cornerRadius": "20px",
-            "offsetTop": "18px",
-            "backgroundColor": "#ff334b",
-            "offsetStart": "18px",
-            "height": "25px",
-            "width": "53px"
-          }
-        ],
-        "paddingAll": "0px"
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "ฟังเสียงหัวใจแบบชั้นสูง",
-              "uri": "https://open.spotify.com/track/05WHgjtWx32x40VmFkLnOd?si=bX2nGHaiSomQRseGidsGEg&context=spotify%3Atrack%3A05WHgjtWx32x40VmFkLnOd&dl_branch=1"
-            },
-            "style": "primary"
-          },
-          {
-            "type": "button",
-            "action": {
-              "type": "uri",
-              "label": "คิดถึงแบบทางการ",
-              "uri": "mailto:apiapiisusonig@gmail.com"
-            },
-            "style": "secondary"
-          }
-        ],
-        "spacing": "md"
-      }
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://raw.githubusercontent.com/jamessakda/LANDin.github.io/main/images/covertoon3.png?w=auto",
+    "size": "full",
+    "aspectRatio": "20:14",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://linecorp.com"
     }
-  ]
-}
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://linecorp.com"
+    },
+    "contents": [
+      {
+        "type": "text",
+        "text": "Toon's Birthday",
+        "weight": "bold",
+        "size": "xl",
+        "align": "start",
+        "contents": []
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://raw.githubusercontent.com/jamessakda/LANDin.github.io/main/images/HuaToon.png?w=auto"
+              },
+              {
+                "type": "text",
+                "text": "22 laew krub",
+                "weight": "bold",
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "แข็ง",
+                "size": "sm",
+                "color": "#AAAAAA",
+                "align": "end",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://raw.githubusercontent.com/jamessakda/LANDin.github.io/main/images/HuaToon2.png?w=auto"
+              },
+              {
+                "type": "text",
+                "text": "wish me luck this year",
+                "weight": "bold",
+                "flex": 0,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "แรงจ้า",
+                "size": "sm",
+                "color": "#AAAAAA",
+                "align": "end",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "나의 가장 친한 친구의 생일을 축하합니다.",
+        "size": "xxs",
+        "color": "#AAAAAA",
+        "wrap": true,
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "spacer",
+        "size": "xxl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "Happy Birthday!! ",
+          "uri": "https://youtu.be/nl62hhiBMOM"
+        },
+        "color": "#905C44",
+        "style": "primary"
+      }
+    ]
+  }
       }
       ])
     }
